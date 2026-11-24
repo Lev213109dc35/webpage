@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fehérvári Levente – Önéletrajz</title>
+  <meta name="description" content="Fehérvári Levente – gazdasági és pénzügyi matematikai elemzés hallgató, Budapesti Corvinus Egyetem.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23173a5e'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='white' text-anchor='middle'%3EFL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Ugrás a tartalomhoz</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" data-site="name">Fehérvári Levente</a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Főmenü">
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">Rólam</a></li>
+          <li><a href="#education" data-i18n="nav.education">Tanulmányok</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">Tapasztalat</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Készségek</a></li>
+          <li data-works-only><a href="#works" data-i18n="nav.works">Munkáim</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Kapcsolat</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-i18n-aria="langLabel" aria-label="Nyelv kiválasztása">
+          <button type="button" data-lang="hu" lang="hu" aria-pressed="true">HU</button>
+          <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-primary cv-link header-cv" href="assets/cv/Levente_Fehervari_CV_EN.pdf" download>
+          <span data-cv-label>Önéletrajz letöltése</span>
+        </a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" data-i18n-aria="menuOpen" aria-label="Menü megnyitása">
+          <span class="menu-bar"></span><span class="menu-bar"></span><span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow" data-i18n="role"></p>
+        <h1 data-site="name">Fehérvári Levente</h1>
+        <p class="lead" data-i18n="tagline"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary cv-link" href="assets/cv/Levente_Fehervari_CV_EN.pdf" download><span data-cv-label></span></a>
+          <a class="btn btn-ghost" href="#contact" data-i18n="contactCta"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid">
+        <h2 data-i18n="sections.about"></h2>
+        <div><p class="prose" data-render="about"></p></div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container grid">
+        <h2 data-i18n="sections.education"></h2>
+        <ol class="timeline" data-render="education"></ol>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container grid">
+        <h2 data-i18n="sections.experience"></h2>
+        <ol class="timeline" data-render="experience"></ol>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container grid">
+        <h2 data-i18n="sections.skills"></h2>
+        <dl class="skills" data-render="skills"></dl>
+      </div>
+    </section>
+
+    <section id="works" class="section" data-works-only>
+      <div class="container grid">
+        <div>
+          <h2 data-i18n="sections.works"></h2>
+          <p class="muted" data-i18n="worksIntro"></p>
+        </div>
+        <ul class="works" data-render="works"></ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container grid">
+        <h2 data-i18n="sections.contact"></h2>
+        <div>
+          <p class="prose" data-i18n="contactText"></p>
+          <p class="contact-line"><a class="email-link" data-site="email" href="mailto:levente.fehervari2004@gmail.com">levente.fehervari2004@gmail.com</a></p>
+          <p><a class="btn btn-ghost cv-link" href="assets/cv/Levente_Fehervari_CV_EN.pdf" download><span data-cv-label></span></a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-site="name">Fehérvári Levente</span></span>
+      <span data-i18n="footer"></span>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/works.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
