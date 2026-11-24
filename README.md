@@ -1,6 +1,6 @@
 # Fehérvári Levente – CV website
 
-My personal CV and portfolio site, in Hungarian (default) and English.
+My personal CV and portfolio site, in Hungarian (default) and English..
 Plain HTML, CSS and JavaScript: no build step and nothing to install.
 
 ## Folders
