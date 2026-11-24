@@ -96,6 +96,7 @@
 
     var name = lang === "en" ? SITE.nameEn : SITE.name;
     document.querySelectorAll('[data-site="name"]').forEach(function (n) { n.textContent = name; });
+    document.querySelectorAll('[data-site="photo-alt"]').forEach(function (n) { n.alt = name; });
     document.querySelectorAll('[data-site="email"]').forEach(function (n) {
       n.textContent = SITE.email;
       n.href = "mailto:" + SITE.email;

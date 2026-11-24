@@ -6,7 +6,7 @@
 window.SITE = {
   name: "Fehérvári Levente",        // Hungarian name order
   nameEn: "Levente Fehérvári",      // English name order
-  email: "levente.fehervari2004@gmail.com",
+  email: "levente.fehervari.work@gmail.com",
 
   // CV files in assets/cv/. Set hu to null until you have a Hungarian PDF:
   // the button then downloads the English one and says so.
